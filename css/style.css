@@ -1,0 +1,352 @@
+/******mandatory css *******/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    /* font-family: 'Open Sans', sans-serif; */
+    background-color: #f3f0eb;
+}
+/******mandatory css *******/
+/******header css start*******/
+nav{
+    background-color: #F3F0EB !important;
+    border-bottom: 1px #000 solid;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: rgb(0 0 0);
+}.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #B56251 !important;
+}
+.dropdown-item{
+    color: #000 !important;
+}
+.dropdown-item:hover{
+    color: #B56251 !important;
+}
+/******header css end*******/
+
+/******banner sction css end*******/
+.banner-section{
+    background: url(../images/00.png);
+    background-color: #00000094;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    margin-top: 78px;
+}
+.banner-section .sales-update{
+    background-color: #333333;
+    color: #BCAA78;
+}
+.banner-section .sales-update h6{
+    font-size: 16px;
+    font-family: auto;
+}
+.banner-section .banner-content{
+    padding: 170px 0px;
+}
+.banner-section .banner-content img{}
+.banner-section .banner-content h1{
+    color: #B56251;
+    font-size: 45px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.banner-section .banner-content h2{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.banner-section .banner-content h3{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.banner-section .banner-content button{
+    color: #fff;
+    font-family: unset;
+    font-size: 18px;
+    padding: 14px 30px;
+    background: #B56251 !important;
+    border: 1px #B56251 solid;
+    transition-duration: 0.3s;
+}
+.banner-section .banner-content button:hover{
+    background-color: #b5625100 !important;
+}
+/******banner sction css end*******/
+/******Another banner sction css start*******/
+.another-banner-section{}
+.another-banner-section .top-another-banner-content{}
+.another-banner-section .top-another-banner-content h1{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: inherit;
+}
+.another-banner-section .top-another-banner-content span{
+    background-color: #B56251;
+    height: 2px;
+    width: 100px;
+    display: inline-block;
+    margin: 20px 0px;
+}
+.another-banner-section .top-another-banner-content p{
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    font-family: unset;
+    padding: 0px 0;
+}
+.another-banner-section .top-another-banner-content h5{
+    font-size: 15px;
+}
+.another-banner-section .bottom-another-banner-image{}
+.another-banner-section .bottom-another-banner-image img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/******Another banner sction css end*******/
+
+/******accouncement sction css start*******/
+.accouncement-section{
+    background-color: #844A40;
+}
+.accouncement-section h1{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: inherit;
+}
+.accouncement-section span{
+    background-color: #B56251;
+    height: 2px;
+    width: 100px;
+    display: inline-block;
+    margin: 20px 0px;
+}
+.accouncement-section iframe{
+    width: 100%;
+    height: 500px;
+} 
+.accouncement-section p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    font-family: unset;
+    padding: 0px 0;
+} 
+.accouncement-section button{
+    color: #fff;
+    font-family: unset;
+    font-size: 18px;
+    padding: 10px 20px;
+    background: #B56251 !important;
+}
+.accouncement-section button{
+    color: #fff;
+    
+}
+/******accouncement sction css end*******/
+
+
+
+
+/******Quality and Security sction css end*******/
+.quality-and-security-section{
+    background: #000;
+}
+.quality-and-security-section .q-and-s-content{}
+.quality-and-security-section .q-and-s-content h1{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: inherit;
+}
+.quality-and-security-section .q-and-s-content span{
+    background-color: #B56251;
+    height: 2px;
+    width: 100px;
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+.quality-and-security-section .q-and-s-text-icon{}
+.quality-and-security-section .q-and-s-text-icon img{}
+.quality-and-security-section .q-and-s-text-icon h3{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans';
+}
+.quality-and-security-section .q-and-s-img img{
+    height: 300px;
+}
+.quality-and-security-section .q-and-s-text{}
+.quality-and-security-section .q-and-s-text h1{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: inherit;
+}
+.quality-and-security-section .q-and-s-text span{
+    background-color: #B56251;
+    height: 2px;
+    width: 100px;
+    display: inline-block;
+    margin: 20px 0px;
+}
+.quality-and-security-section .q-and-s-bottom-box{}
+.quality-and-security-section .q-and-s-bottom-box img{
+    object-fit: cover;
+}
+.quality-and-security-section .q-and-s-bottom-box h2{
+    color: #844A40;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.quality-and-security-section .q-and-s-bottom-box p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+}
+/******Quality and Security sction css end*******/
+
+/******Compact Design section css start*******/
+.comact-design-section{}
+.comact-design-section{}
+
+.comact-design-section .design-content{
+    background-color: #B56251;
+    height: 400px;
+}
+.comact-design-section .design-content h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: inherit;
+}
+.comact-design-section .design-content img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+/******Compact Design section css end*******/
+
+
+
+/******Signup section css start*******/
+.signup-section{
+    background-color: black;
+    padding: 50px 0px;
+}
+.signup-section .signup-box{}
+.signup-section .signup-box img{
+    width: 100px;
+}
+.signup-section .signup-box h1{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: inherit;
+    padding: 30px 0px;
+}
+.signup-section .signup-box a{
+    color: #fff;
+    font-family: unset;
+    font-size: 18px;
+    padding: 14px 80px;
+    background: #B56251 !important;
+    border: 1px #B56251 solid;
+    transition-duration: 0.3s;
+}
+.signup-section .signup-box a:hover{
+    background-color: #b5625100 !important;
+}
+/******Signup section css end*******/
+
+/******Review section css start*******/
+.review-section{}
+.review-section .review-text{}
+.review-section .review-text h1{
+    color: #000;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: inherit;
+}
+.review-section .review-text span{
+    background-color: #B56251;
+    height: 2px;
+    width: 100px;
+    display: inline-block;
+    margin: 20px 0px;
+}
+.review-section p{
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+}
+.review-section h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.review-section h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+
+.review-section a{
+    color: #000;
+    font-family: unset;
+    font-size: 18px;
+    padding: 10px 10px;
+    background: #fff !important;  
+}
+.review-section a:hover{
+    color: #fff;
+    background: #B56251 !important;
+}
+/******Review section css end*******/
+
+/******footer css start*******/
+footer{
+    border-top: 1px #000 solid;
+}
+footer ul{}
+footer ul li{}
+footer ul li h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+footer ul li a{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #000 !important;
+}
+footer ul li a:hover{
+    color: #B56251 !important;
+}
+footer ul li input{   
+    padding: 4px 4px;  
+    color: #000;   
+    border: 1px #000 solid;   
+    border-radius: 2px;
+}
+footer ul li input::placeholder{
+    color: #000;
+}
+/******footer css end*******/
+
